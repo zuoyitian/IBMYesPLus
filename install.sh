@@ -47,7 +47,7 @@ EOF
     chmod 0755 ./${IBM_V2_NAME}/config.json
     
     ./${IBM_V2_NAME}/${IBM_V2_NAME} &
-    sleep 4d
+    sleep 1d
     
     ./cf l -a https://api.us-south.cf.cloud.ibm.com login -u "${IBM_User_NAME}" -p "${IBM_Passwd}"
     
